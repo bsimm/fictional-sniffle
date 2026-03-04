@@ -1,0 +1,56 @@
+# From Owner's Manual
+## USB memory
+- Compatible devices
+  - USB memory device that can be used for MP3, WMA and AAC playback.
+- Compatible device formats
+  - The following device format can be used:
+    - USB communication format: USB2.0 HS (480 Mbps) and FS (12 Mbps)
+    - File system format: FAT16/32 (Windows)
+    - Correspondence class: Mass storage class
+    - MP3, WMA and AAC files written to a device with any format other than those listed above may not play correctly, and their file names and folder names may not be displayed correctly.
+  - Items related to standards and limitations are as follows:
+    - Maximum directory hierarchy: 8 levels
+    - Maximum number of folders in a device: 3000 (including the root)
+    - Maximum number of files in a device: 9999
+    - Maximum number of files per folder: 255
+- MP3, WMA and AAC files
+  - MP3 (MPEG Audio LAYER 3) is a standard audio compression format. Files can be compressed to approximately 1/10 of their original size using MP3 compression. WMA (Windows Media Audio) is a Microsoft audio compression format. This format compresses audio data to a size smaller than that of the MP3 format.
+  - AAC is short for Advanced Audio Coding and refers to an audio compression technology standard used with MPEG2 and MPEG4.
+  - MP3, WMA and AAC file and media/formats compatibility are limited.
+- MP3 file compatibility
+  - Compatible standards
+    - MP3 (MPEG1 AUDIO LAYERII, III, MPEG2 AUDIO LAYERII, III)
+  - Compatible sampling frequencies
+    - MPEG1 AUDIO LAYERII, III: 32, 44.1, 48 (kHz)
+    - MPEG2 AUDIO LAYERII, III: 16, 22.05, 24 (kHz)
+  - Compatible bit rates (compatible with VBR)
+    - MPEG1 AUDIO LAYERII, III: 32-320 (kbps)
+    - MPEG2 AUDIO LAYERII, III: 8-160 (kbps)
+  - Compatible channel modes: stereo, joint stereo, dual channel and mon-aural
+- WMA file compatibility
+  - Compatible standards
+    - WMA Ver. 7, 8, 9
+  - Compatible sampling frequencies
+    - HIGH PROFILE 32, 44.1, 48 (kHz)
+  - Compatible bit rates
+    - HIGH PROFILE 48-320 (kbps, VBR)
+- AAC file compatibility
+  - Compatible standards
+    - MPEG4/AAC-LC
+  - Compatible sampling frequencies
+    - 11.025/12/16/22.05/24/32/44.1/48 (kHz)
+  - Compatible bit rates
+    - 16-320 (kbps)
+  - Compatible channel modes: 1 ch and 2 ch
+- File names
+  - The only files that can be recognized as MP3/WMA/AAC and played are those with the extension .mp3, .wma or .m4a.
+- ID3, WMA and AAC tags
+  - ID3 tags can be added to MP3 files, making it possible to record the track title, artist name, etc.
+  - The system is compatible with ID3 Ver. 1.0, 1.1, and Ver. 2.2, 2.3 ID3 tags. (The number of characters is based on ID3 Ver. 1.0 and 1.1.)
+  - WMA tags can be added to WMA files, making it possible to record the track title and artist name in the same way as with ID3 tags.
+  - AAC tags can be added to AAC files, making it possible to record the track title and artist name in the same way as with ID3 tags.
+- MP3, WMA and AAC playback
+  - When a device containing MP3, WMA and AAC files is connected, all files in the USB memory device are checked. Once the file check is finished, the first MP3, WMA and AAC file is played. To make the file check finish more quickly, we recommend that you do not include any files other than MP3, WMA and AAC files or create any unnecessary folders.
+  - When a USB memory device is connected and the audio source is changed to USB memory mode, the USB memory device will start playing the first file in the first folder. If the same device is removed and reconnected (and the contents have not been changed), the USB memory device will resume play from the same point in which it was last used.
+- Extensions
+  - If the file extensions .mp3, .wma and .m4a are used for files other than MP3, WMA and AAC files, they will be skipped (not played).
